@@ -3,4 +3,4 @@ This is my first django project
 
 # picture of django website
 
-![django](Screenshot(94).png)
+![webview](first_django_project/Screenshot (94).png)
