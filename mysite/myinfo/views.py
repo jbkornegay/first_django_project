@@ -1,4 +1,4 @@
-from django.http import HttpResponse
+from django.http import JsonResponse
 
 def student_info(request):
     data = {
@@ -10,9 +10,10 @@ def student_info(request):
         "Message" : "Hi mentor, I hope this works!"
 
     }
+    return JsonResponse(data)
     
-    return HttpResponse("Name:  %s \nTrack:  %s \nMessage:  %s" %(data["Name"], data["Track"], data["Message"]))
 
-    
+
+
 
 # Create your views here.
